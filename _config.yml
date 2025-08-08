@@ -3,8 +3,7 @@ title:            "Wonjung Jeong"
 longtitle:        "M.S student at Korea University Department of Semiconductor System Engineering"
 author:           "Wonjung Jeong"
 email:            "jwjand@korea.ac.kr"
-description: >
-  Build Jekyll site with the GitBook style.
+description:
 
 version:          1.0
 gitbook_version:  3.2.3
