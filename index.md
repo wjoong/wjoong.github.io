@@ -13,7 +13,7 @@ Here you'll find my research, publications, and portfolio updates.
     Education
   </a>
 </h1>
-
+<br>
 <div style="margin-bottom:1.5em;">
   <div style="font-size:1.2rem; color:#2d2d2d; font-weight:bold;">Korea University</div>
   <div style="font-size:0.9rem; color:#2d2d2d; font-weight:600;">M.S. in Department of Semiconductor System Engineering</div>
@@ -31,7 +31,7 @@ Here you'll find my research, publications, and portfolio updates.
     Research
   </a>
 </h1>
-
+<br>
 <div style="margin-bottom:1.5em;">
   <div style="font-size:1.2rem; color:#2d2d2d; font-weight:bold;">CXL memory systems</div>
   
@@ -50,7 +50,7 @@ Here you'll find my research, publications, and portfolio updates.
     Publications
   </a>
 </h1>
-
+<br>
 
 
 <h1 id="Skills" style="font-family:'Abril Fatface',serif;font-size:1.6rem;line-height:1.2;white-space:nowrap;color:#222;">
