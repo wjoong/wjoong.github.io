@@ -8,7 +8,11 @@ title: "Welcome"
 Welcome to my personal website.  
 Here you'll find my research, publications, and portfolio updates.
 
-## <a id="education"></a>Education
+<h1 id="Education" style="font-family:'Abril Fatface',serif;font-size:1.6rem;line-height:1.2;white-space:nowrap;color:#222;">
+  <a href="#Education" style="font-size:inherit; color:inherit; text-decoration:none;">
+    Education
+  </a>
+</h1>
 
 <div style="margin-bottom:1.5em;">
   <div style="font-size:1.2rem; color:#2d2d2d; font-weight:bold;">Korea University</div>
@@ -22,7 +26,11 @@ Here you'll find my research, publications, and portfolio updates.
   <div style="font-size:0.8rem; color:#888;">Mar 2019 ~ Aug 2025</div>
 </div>
 
-## <a id="research"></a>Research
+<h1 id="Research" style="font-family:'Abril Fatface',serif;font-size:1.6rem;line-height:1.2;white-space:nowrap;color:#222;">
+  <a href="#Research" style="font-size:inherit; color:inherit; text-decoration:none;">
+    Research
+  </a>
+</h1>
 
 <div style="margin-bottom:1.5em;">
   <div style="font-size:1.2rem; color:#2d2d2d; font-weight:bold;">CXL memory systems</div>
@@ -37,10 +45,18 @@ Here you'll find my research, publications, and portfolio updates.
 </div>
 
 
-## <a id="publications"></a>Publications
+<h1 id="Publications" style="font-family:'Abril Fatface',serif;font-size:1.6rem;line-height:1.2;white-space:nowrap;color:#222;">
+  <a href="#Publications" style="font-size:inherit; color:inherit; text-decoration:none;">
+    Publications
+  </a>
+</h1>
 
 
 
-## <a id="skills"></a>Skills
+<h1 id="Skills" style="font-family:'Abril Fatface',serif;font-size:1.6rem;line-height:1.2;white-space:nowrap;color:#222;">
+  <a href="#Skills" style="font-size:inherit; color:inherit; text-decoration:none;">
+    Skills
+  </a>
+</h1>
 
 
