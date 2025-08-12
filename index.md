@@ -8,7 +8,12 @@ title: "Welcome"
 Welcome to my personal website.  
 Here you'll find my research, publications, and portfolio updates.
 
-## <a id="education"></a>Education
+## <a id="education">
+      <h1 style="font-size:1.6rem; line-height:1.2; white-space:nowrap;">
+        <a href="{{ site.baseurl }}" style="font-size:inherit;">
+          Education
+        </a>
+      </h1>
 
 <div style="margin-bottom:1.5em;">
   <div style="font-size:1.2rem; color:#2d2d2d; font-weight:bold;">Korea University</div>
