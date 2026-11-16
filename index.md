@@ -46,7 +46,6 @@ title: Home
       <div class="pub-meta">
         <span class="badge">IEEE TC</span>
         <span class="pub-year">2026</span>
-        <span class="pub-note">Top journal in computer architecture</span>
       </div>
       <h3>Bauhaus: Restructuring Vector Database for LLM Retrieval on CXL-Based Tiered Memory</h3>
       <p class="pub-authors">

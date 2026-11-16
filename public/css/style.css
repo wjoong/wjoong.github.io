@@ -201,7 +201,6 @@ section p + p { margin-top: 4px; }
   padding: 2px 8px;
 }
 .pub-year { font-variant-numeric: tabular-nums; }
-.pub-note::before { content: "·"; margin-right: 10px; }
 .pub-authors {
   margin-top: 6px;
   font-size: 0.93rem;
