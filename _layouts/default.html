@@ -11,5 +11,42 @@
         {{ content }}
       </main>
     </div>
+
+    <script>
+      // Sidebar menu: highlight the clicked section, and mark the menu item
+      // of the section currently in view.
+      (function () {
+        var links = Array.prototype.slice.call(document.querySelectorAll('.nav a'));
+        var pairs = links.map(function (a) {
+          return { link: a, section: document.getElementById(a.hash.slice(1)) };
+        }).filter(function (p) { return p.section; });
+
+        function setActive(link) {
+          links.forEach(function (a) { a.classList.toggle('active', a === link); });
+        }
+
+        pairs.forEach(function (p) {
+          p.link.addEventListener('click', function () {
+            setActive(p.link);
+            p.section.classList.remove('flash');
+            void p.section.offsetWidth;   // restart the animation
+            p.section.classList.add('flash');
+          });
+        });
+
+        if ('IntersectionObserver' in window) {
+          var observer = new IntersectionObserver(function (entries) {
+            entries.forEach(function (e) {
+              if (!e.isIntersecting) return;
+              pairs.forEach(function (p) { if (p.section === e.target) setActive(p.link); });
+            });
+          }, { rootMargin: '-10% 0px -70% 0px' });
+          // only track while the page actually scrolls
+          if (document.documentElement.scrollHeight > window.innerHeight + 40) {
+            pairs.forEach(function (p) { observer.observe(p.section); });
+          }
+        }
+      })();
+    </script>
   </body>
 </html>

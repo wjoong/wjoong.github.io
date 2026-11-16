@@ -4,8 +4,13 @@ title: Home
 ---
 
 <p class="intro">
-  Welcome to my personal website.
-  Here you'll find my research, publications, and portfolio updates.
+  I am an M.S. student in the Department of Semiconductor System Engineering at Korea University.
+  I work under the supervision of Professor Yunho Oh at the Computer Architecture and System Software Lab (ComSys).
+</p>
+<p class="intro">
+  My research focuses on computer architecture and system software,
+  particularly CXL-based memory systems for datacenters.
+  I received my B.S. in Electrical Engineering from Korea University in 2025.
 </p>
 
 <section id="education">

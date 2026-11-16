@@ -51,8 +51,8 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 /* ---------- Layout ---------- */
 .layout {
   display: grid;
-  grid-template-columns: 220px minmax(0, 1fr);
-  gap: 72px;
+  grid-template-columns: 250px minmax(0, 1fr);
+  gap: 64px;
   max-width: 1000px;
   margin: 0 auto;
   padding: 80px 32px 96px;
@@ -77,10 +77,10 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 }
 
 .profile-name {
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 1.25;
-  letter-spacing: -0.01em;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
 }
 .profile-name a { color: inherit; }
 .profile-name a:hover { text-decoration: none; }
@@ -105,7 +105,8 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
   font-size: 0.95rem;
   padding: 4px 0;
 }
-.nav a:hover { color: var(--accent); text-decoration: none; }
+.nav a:hover, .nav a.active { color: var(--accent); text-decoration: none; }
+.nav a.active { font-weight: 600; }
 
 .links {
   margin-top: 24px;
@@ -120,18 +121,24 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 
 /* ---------- Content ---------- */
 .intro {
-  font-size: 1.15rem;
-  line-height: 1.6;
-  max-width: 34em;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  max-width: 40em;
 }
+.intro + .intro { margin-top: 14px; }
 
-section { margin-top: 56px; scroll-margin-top: 32px; }
+section { margin-top: 56px; scroll-margin-top: 32px; border-radius: 4px; }
+@keyframes flash {
+  from { background: var(--accent-soft); box-shadow: 0 0 0 14px var(--accent-soft); }
+  to   { background: transparent; box-shadow: 0 0 0 14px transparent; }
+}
+section.flash { animation: flash 1.4s ease-out; }
 .content > section:first-child { margin-top: 0; }
 
 h2 {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--accent);
   padding-bottom: 10px;
@@ -230,7 +237,7 @@ section p + p { margin-top: 4px; }
     margin-bottom: 0;
     flex: none;
   }
-  .profile-name { font-size: 1.3rem; }
+  .profile-name { font-size: 1.6rem; }
   .nav {
     flex-direction: row;
     flex-wrap: wrap;
