@@ -1,62 +1,69 @@
 ---
-layout: home
-title: "Welcome"
+layout: default
+title: Home
 ---
 
+<p class="intro">
+  Welcome to my personal website.
+  Here you'll find my research, publications, and portfolio updates.
+</p>
 
+<section id="education">
+  <h2>Education</h2>
 
-Welcome to my personal website.  
-Here you'll find my research, publications, and portfolio updates.
+  <div class="entry">
+    <div class="entry-head">
+      <h3>Korea University</h3>
+      <span class="entry-date">Sep 2025 – Present</span>
+    </div>
+    <p>M.S. in Department of Semiconductor System Engineering</p>
+  </div>
 
-<h1 id="Education" style="font-family:'Abril Fatface',serif;font-size:1.6rem;line-height:1.2;white-space:nowrap;color:#222;">
-  <a href="#Education" style="font-size:inherit; color:inherit; text-decoration:none;">
-    Education
-  </a>
-</h1>
-<br>
-<div style="margin-bottom:1.5em;">
-  <div style="font-size:1.2rem; color:#2d2d2d; font-weight:bold;">Korea University</div>
-  <div style="font-size:0.9rem; color:#2d2d2d; font-weight:600;">M.S. in Department of Semiconductor System Engineering</div>
-  <div style="font-size:0.8rem; color:#888;">Sep 2025 ~ </div>
-</div>
+  <div class="entry">
+    <div class="entry-head">
+      <h3>Korea University</h3>
+      <span class="entry-date">Mar 2019 – Aug 2025</span>
+    </div>
+    <p>B.S. in Electrical Engineering</p>
+  </div>
+</section>
 
-<div style="margin-bottom:1.5em;">
-  <div style="font-size:1.2rem; color:#2d2d2d; font-weight:bold;">Korea University</div>
-  <div style="font-size:0.9rem; color:#2d2d2d; font-weight:600;">B.S. in Electrical Engineering</div>
-  <div style="font-size:0.8rem; color:#888;">Mar 2019 ~ Aug 2025</div>
-</div>
+<section id="research">
+  <h2>Research</h2>
 
-<h1 id="Research" style="font-family:'Abril Fatface',serif;font-size:1.6rem;line-height:1.2;white-space:nowrap;color:#222;">
-  <a href="#Research" style="font-size:inherit; color:inherit; text-decoration:none;">
-    Research
-  </a>
-</h1>
-<br>
-<div style="margin-bottom:1.5em;">
-  <div style="font-size:1.2rem; color:#2d2d2d; font-weight:bold;">CXL memory systems</div>
-  
-  <div style="font-size:0.8rem; color:#2d2d2d;"> </div>
-</div>
+  <ul class="topics">
+    <li>CXL memory systems</li>
+    <li>Operating Systems</li>
+  </ul>
+</section>
 
-<div style="margin-bottom:1.5em;">
-  <div style="font-size:1.2rem; color:#2d2d2d; font-weight:bold;">Operating Systems</div>
-  
-  <div style="font-size:0.8rem; color:#2d2d2d;"> </div>
-</div>
+<section id="publications">
+  <h2>Publications</h2>
 
+  <!-- To add a paper, copy one <li class="pub"> ... </li> block (newest first). -->
+  <ul class="pubs">
+    <li class="pub">
+      <div class="pub-meta">
+        <span class="badge">IEEE TC</span>
+        <span class="pub-year">2026</span>
+        <span class="pub-note">Top journal in computer architecture</span>
+      </div>
+      <h3>Bauhaus: Restructuring Vector Database for LLM Retrieval on CXL-Based Tiered Memory</h3>
+      <p class="pub-authors">
+        Kyungbin Kim, Sungsu Ahn, <strong>Wonjung Jeong</strong>, Jongmin Kim, Sangun Choi,
+        Minseong Gil, Minseong Kim, Dongha Jeong, Yunjay Hong, Haekang Jung, and Yunho Oh
+      </p>
+      <p class="pub-venue">Accepted at <em>IEEE Transactions on Computers</em>.</p>
+    </li>
+  </ul>
+</section>
 
-<h1 id="Publications" style="font-family:'Abril Fatface',serif;font-size:1.6rem;line-height:1.2;white-space:nowrap;color:#222;">
-  <a href="#Publications" style="font-size:inherit; color:inherit; text-decoration:none;">
-    Publications
-  </a>
-</h1>
-<br>
-
-
-<h1 id="Skills" style="font-family:'Abril Fatface',serif;font-size:1.6rem;line-height:1.2;white-space:nowrap;color:#222;">
-  <a href="#Skills" style="font-size:inherit; color:inherit; text-decoration:none;">
-    Skills
-  </a>
-</h1>
-
-
+<!-- Skills: section hidden while empty. Uncomment and fill in, then add
+     <a href="/#skills">Skills</a> to the nav in _includes/sidebar.html.
+<section id="skills">
+  <h2>Skills</h2>
+  <ul class="topics">
+    <li>...</li>
+  </ul>
+</section>
+-->

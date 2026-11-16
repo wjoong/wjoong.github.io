@@ -1,22 +1,21 @@
-<div class="sidebar">
-  <div class="container sidebar-sticky">
-    <div class="sidebar-about">
-      <img src="{{ site.baseurl }}/public/WonjungJeong.jpg" alt="Profile" style="width:120px; border-radius:50%; margin-bottom:10px;">
-      <h1 style="font-size:1.6rem; line-height:1.2; white-space:nowrap;">
-        <a href="{{ site.baseurl }}" style="font-size:inherit;">
-          Jeong Won Jung
-        </a>
-      </h1>
-      <p class="lead">M.S. degree in Department of Semiconductor System Engineering @ Korea University</p>
+<aside class="sidebar">
+  <div class="profile">
+    <img class="profile-photo" src="{{ '/public/WonjungJeong.jpg' | relative_url }}" alt="Portrait of {{ site.title }}">
+    <div class="profile-text">
+      <h1 class="profile-name"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <p class="profile-role">M.S. student<br>Semiconductor System Engineering<br>Korea University</p>
     </div>
-
-    <nav class="sidebar-nav">
-      <a class="sidebar-nav-item" href="#education">Education</a>
-      <a class="sidebar-nav-item" href="#research">Research</a>
-      <a class="sidebar-nav-item" href="#publications">Publications</a>
-      <a class="sidebar-nav-item" href="#skills">Skills</a>
-    </nav>
-
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
-</div>
+
+  <nav class="nav" aria-label="Sections">
+    <a href="{{ '/' | relative_url }}#education">Education</a>
+    <a href="{{ '/' | relative_url }}#research">Research</a>
+    <a href="{{ '/' | relative_url }}#publications">Publications</a>
+  </nav>
+
+  <p class="links">
+    <a href="https://github.com/wjoong">GitHub</a>
+  </p>
+
+  <p class="copyright">&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+</aside>
