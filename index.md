@@ -5,7 +5,7 @@ title: Home
 
 <p class="intro">
   I am an M.S. student in the Department of Semiconductor System Engineering at Korea University.
-  I am a member of the Computer Architecture and System Software Lab (ComSys), advised by Professor Yunho Oh.
+  I am a member of the Computer Architecture and System Software Lab (<a href="https://comsys-lab.github.io/">ComSys</a>), advised by Professor Yunho Oh.
 </p>
 <p class="intro">
   My research focuses on computer architecture and system software,
