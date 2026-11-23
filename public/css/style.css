@@ -121,8 +121,8 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
   gap: 6px;
 }
 .links .icon {
-  width: 17px;
-  height: 17px;
+  width: 14px;
+  height: 14px;
   fill: currentColor;
   flex: none;
 }
