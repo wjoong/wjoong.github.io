@@ -109,8 +109,22 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .nav a.active { font-weight: 600; }
 
 .links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
   margin-top: 24px;
   font-size: 0.9rem;
+}
+.links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.links .icon {
+  width: 17px;
+  height: 17px;
+  fill: currentColor;
+  flex: none;
 }
 
 .copyright {
